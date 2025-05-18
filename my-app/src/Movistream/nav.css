@@ -1,0 +1,98 @@
+*{
+    margin: auto;
+    padding: auto;
+    background-color: var(--primary);
+}
+
+
+
+
+:root {
+  --primary: #000000;
+  --light: #F3F3F3;
+  --dark: 	#686868;
+}
+
+
+
+.navbar-toggler-icon {
+  background-color: rgb(99, 96, 96);
+
+ 
+}
+
+
+
+
+.Navbar{
+
+  
+   background-color:rgb(0, 0, 0);
+   color: white;
+  text-decoration: none;
+  width:fit-content;
+  border-radius: 7px;
+ 
+  
+ 
+
+
+ 
+ 
+
+}
+
+.container{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 600;
+
+   
+
+  background-color:#000000 ; 
+}
+.custom-link {
+  color: #f2ebeb !important;
+
+
+  margin-top: 5px;
+
+}
+
+.custom-link:hover {
+  background-color:var(--dark);
+  
+  
+}
+
+
+.account{
+    color: rgb(255, 255, 255);
+ margin:0;
+ padding: 0;
+display: flex;
+
+
+  cursor: pointer; 
+}
+ .icon{
+      color: rgb(249, 249, 249);
+ margin:0;
+ padding: 0;
+display:flex;
+
+ gap: 11px;
+ margin-top: 20px;
+ margin-left: 0; 
+}
+.icon:hover{
+  color: var(--dark);
+} 
+.login{
+margin-top: 12px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+.login:hover{
+  color: var(--dark);
+}
+

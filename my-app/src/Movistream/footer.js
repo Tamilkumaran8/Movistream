@@ -1,0 +1,42 @@
+import React from "react";
+import './footer.css';
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+const End=()=>{
+    return(
+        <>
+         <section class="link">
+      <div class="logos">
+        <a href="#"><i class="icon"><FaFacebook/></i></a>
+        <a href="#"><i class="icon"><FaInstagram/></i></a>
+        <a href="#"><i class="icon"><FaTwitter/></i></a>
+        <a href="#"><i class="icon"><FaYoutube/></i></a>
+      </div>
+      <br></br>
+      <div class="sub-links">
+        <ul>
+          <li><a href="#">Audio and Subtitles</a></li>
+          <li><a href="#">Audio Description</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Legal Notices</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>&copy 2025-2050 Movistream, Inc.</p>
+      <p> Google &copy 2025</p>
+    </footer>
+        </>
+    )
+}
+export default End;
