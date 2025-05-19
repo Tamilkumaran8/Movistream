@@ -37,8 +37,8 @@ const End=()=>{
       </div> 
     </section>
     <footer>
-      <p>&copy 2025-2050 Movistream, Inc.</p>
-      <p> Google &copy 2025</p>
+      <p>©Copyright 2025-2027 Movistream, Inc.</p>
+   
     </footer>
         </>
     )

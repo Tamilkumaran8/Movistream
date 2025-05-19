@@ -1,10 +1,10 @@
 .backimg-testimonial {
   background-image:url("https://static.vecteezy.com/system/resources/thumbnails/034/135/170/small/four-friends-in-a-multiplex-view-perspective-free-video.jpg");
   background-position:cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   height: 60vh;
   border-radius: 5px;
-  color: red;
+  color: rgb(243, 243, 243);
   background-color: #000000;
 }
 .custom-flex{

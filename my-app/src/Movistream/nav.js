@@ -23,7 +23,7 @@ const Main=()=>
          <Navbar.Brand href="#page" style={{ color: "black" }}>
              <img src={logo} width={100}></img>
           </Navbar.Brand>
-     <Navbar.Brand style={{ color: "white" }}>
+     <Navbar.Brand style={{ color: "white",  fontWeight:300}}>
              MOVISTREAM
           </Navbar.Brand>
           <Navbar.Brand href="" style={{ color: "white" }}>

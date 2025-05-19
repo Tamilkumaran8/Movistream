@@ -41,7 +41,7 @@ return(
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <img src={squid} alt="pic4" className="d-block w-100" />
-           <Carousel.Caption>
+           <Carousel.Caption className="box">
           <h3 style={{color:"red"}}>Squid Game</h3>
           <p style={{color:"red"}}>Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes: a survival game that has a whopping 45.6 billion-won prize at stake.</p>
         </Carousel.Caption>
