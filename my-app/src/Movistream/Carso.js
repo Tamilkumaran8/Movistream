@@ -1,4 +1,4 @@
-import {useState} from "react";
+import React from "react";
 
 import marvel from './images/marvel.jpg';
 import nun from './images/nun.jpg';
@@ -6,56 +6,25 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import './carousel.css'
 const Sample=()=>{
-     const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
-return(
-    <> <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item className="main_slice">
-        
-        
-            
-               
-        
-        <Carousel.Caption>
-          
-       
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='banner'>
-      <img src="https://wallpaperaccess.com/full/2703652.png"></img>
-                <h1 className='description'>
-                    
-                    </h1>
-       
-            </div>
-        <div className="fade_bottom"></div><br></br>
-        <Carousel.Caption>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='banner'>
-        <img src="https://wallpaperaccess.com/full/2703652.png"></img>
-                <h1 className='description'>
-                    
-                    </h1>
-       
-            </div>
-        <div className="fade_bottom"></div><br></br>
-        <Carousel.Caption>
-          
-        
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-    
-        
      
-    </>
+return(
+  <>
+  <Carousel id="car">
+        <Carousel.Item interval={4000}>
+          <img src={marvel} alt="pic1" className="d-block w-100" />
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <img src={marvel} alt="pic2" className="d-block w-100" />
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <img src={marvel} alt="pic3" className="d-block w-100" />
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <img src={marvel} alt="pic4" className="d-block w-100" />
+        </Carousel.Item>
+      </Carousel>
+      <br></br>
+  </>
 )
 
 
