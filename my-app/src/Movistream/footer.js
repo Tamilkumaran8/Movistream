@@ -8,20 +8,24 @@ const End=()=>{
     return(
         <>
          <section class="link">
-      <div class="logos">
-        <a href="#"><i class="icon"><FaFacebook/></i></a>
-        <a href="#"><i class="icon"><FaInstagram/></i></a>
-        <a href="#"><i class="icon"><FaTwitter/></i></a>
-        <a href="#"><i class="icon"><FaYoutube/></i></a>
-      </div>
-      <br></br>
+ 
+  
       <div class="sub-links">
+
+       
+    
+       
         <ul>
+           <a href="https://www.facebook.com/"><i class="icon"><FaFacebook/></i></a>
+        <a href="https://www.instagram.com/"><i class="icon"><FaInstagram/></i></a>
+        <a href="https://x.com/"><i class="icon"><FaTwitter/></i></a>
+        <a href="https://www.youtube.com/"><i class="icon"><FaYoutube/></i></a> 
           <li><a href="#">Audio and Subtitles</a></li>
           <li><a href="#">Audio Description</a></li>
           <li><a href="#">Help Center</a></li>
           <li><a href="#">Gift Cards</a></li>
-          <li><a href="#">Media Center</a></li>
+         
+           <li><a href="#">Media Center</a></li>
           <li><a href="#">Investor Relations</a></li>
           <li><a href="#">Jobs</a></li>
           <li><a href="#">Terms of Use</a></li>
@@ -30,7 +34,7 @@ const End=()=>{
           <li><a href="#">Corporate Information</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
-      </div>
+      </div> 
     </section>
     <footer>
       <p>&copy 2025-2050 Movistream, Inc.</p>

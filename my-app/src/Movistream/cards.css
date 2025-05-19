@@ -5,6 +5,7 @@
     margin-left: 20px;
     color: #fff;
      cursor: pointer;
+     background-color: #040404;
     
 
 }
@@ -92,11 +93,11 @@
 }
 
 .home{
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 .home:hover{
-    color: var(--dark);
+    color: red;
 }
 
 .img{

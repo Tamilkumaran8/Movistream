@@ -8,6 +8,7 @@ import './Getstart.css';
 import Main from "./nav";
 import Home from "./cards";
 import Carso from "./Carso";
+import About from "./inquiry";
 import End from "./footer";
 
 
@@ -21,7 +22,7 @@ const Getstart=()=>{
    <Main/>  
    <Carso/>
    <Home/>
-  
+  <About/>
 <End/>
     </>
   )
@@ -36,6 +37,7 @@ function App(){
    <Main/>
    <Carso/>
    <Home/>
+   <About/>
    <End/>
   
     </>

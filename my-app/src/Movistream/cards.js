@@ -77,7 +77,7 @@ const Home=()=>{
          <div id="home" className='row'>
             <h2 className="home">Popular on Movistream </h2> 
          <div className="posters">
-                <img className='poster' alt='Alice' src={alice} />
+                <img  className='poster'  alt='Alice' src={alice} />
                 <img className='poster' alt='poster' src={stranger} />
                  <img className='poster' alt='poster' src={wednesday} />
                  <img className='poster' alt='poster' src={squid} />
