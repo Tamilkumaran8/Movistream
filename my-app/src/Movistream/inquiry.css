@@ -1,10 +1,9 @@
 .backimg-testimonial {
-  background-image:url("https://static.vecteezy.com/system/resources/thumbnails/034/135/170/small/four-friends-in-a-multiplex-view-perspective-free-video.jpg");
+
   background-position:cover;
-  background-repeat: no-repeat;
   height: 60vh;
-  border-radius: 5px;
-  color: rgb(243, 243, 243);
+
+  color: rgb(255, 255, 255);
   background-color: #000000;
 }
 .custom-flex{
@@ -17,15 +16,15 @@
  
 }
 .testi-color-1 {
-  background-color: transparent;
+  background-color:lightblue;
 
 }
 .testi-color-2 {
-  background-color: transparent;
+  background-color:lightskyblue;
   
 }
 .testi-color-3 {
-  background-color: transparent;
+  background-color:lightpink;
 
 }
 
@@ -40,6 +39,7 @@
 }
 .contact-para {
   font-family: "Times New Roman", Times, serif;
+  color: #000000;
   
 }
 .button-contact-form {

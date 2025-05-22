@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Form from "react-bootstrap/Form";
 import React, { useState, useCallback } from "react";
 import Button from "react-bootstrap/Button";
+import money from './images/money.jpg';
 
 const  About=() => {
      const [formData, setFormData] = useState({
@@ -36,6 +37,7 @@ const  About=() => {
     <>
       <section className="contactus" id="reviews">
         <div className="backimg-testimonial">
+         
           <h2 className="testimonial-center">Reviews</h2>
           <hr></hr>
           <div className="container my-3">
@@ -59,7 +61,7 @@ const  About=() => {
                     <h5 className="mb-4 contact-para">
                       "A dazzling adaptation that brings the beloved Broadway musical to life with grandeur and heart."
                     </h5>
-                    <p className="text-white contact-para">
+                    <p className="testi-color contact-para">
                       <small>- Jon M. Chu</small>
                     </p>
                   </div>
@@ -72,7 +74,7 @@ const  About=() => {
                     <h5 className="mb-4 contact-para">
                       "  A mesmerizing film that captures the essence of human connection amidst the city's chaos."
                     </h5>
-                    <p className="text-white contact-para">
+                    <p className="testi-color contact-para">
                       <small>- Steve</small>
                     </p>
                   </div>
@@ -141,7 +143,7 @@ const  About=() => {
                 />
               </Form.Group>
               <div className="button-contact-form">
-                <Button variant="success" type="submit">
+                <Button variant="success" className="contat-from" type="submit">
                   Submit
                 </Button>
               </div>
